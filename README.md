@@ -12,8 +12,10 @@ Press F12 to select the USB sroage device OpenWRT image was flash onto - or inte
 Once you see OpenWRT grub screen press e to edit the boot command line
  We need to remove the serial console re-direction
 
+```
   menuentry "OpenWrt" {
           linux /boot/vmlinuz root=PARTUUID=ca165c20-f717-ec14-f184-b15f1bb0e102 rootwait console=tty1 noinitrd
+```
 
 Connect LAN cable to the ethernet port on the Thin Client
 * set your lan ip address to 10.42.0.2/24 ( any ip except 10.42.0.1/24 )
@@ -24,9 +26,13 @@ Connect LAN cable to the ethernet port on the Thin Client
 * install meshtasticd
 
 Confirm meshtasticd is running
+```
 /etc/init.d/meshtasticd status
+```
 
+```
 logread | grep meshtasticd
+```
 
 * point your phone or meshtastic desktop application to connect to 10.42.0.1 and set a LoRa Region
 * use whichever client anadoid or desktop
@@ -37,9 +43,13 @@ logread | grep meshtasticd
 OpenWRT based on Morse Micro SDK
 
 Lora USB Stick used MESHSTICK
+LINK
+
 https://www.elecrow.com/meshstick-usb-to-spi-sx1262-tcxo-lora-usb-stick-usb-plug-and-play-meshtastic-lora-mesh-node.html
 
 Halow USB Stick used WFD8108
+LINK
+
 https://www.alibaba.com/product-detail/WFDG8108-WiFi-HaLow-Dongle-Plug-And_1601962754478.html
 
 
