@@ -7,6 +7,8 @@ then
 
 Press F12 to select the USB sroage device OpenWRT image was flash onto - or internal storage if you have actually written the image to it
 
+NOTE: you will also need to disable Secure Boot in the BIOS - F2
+
 <img width="1534" height="873" alt="image" src="https://github.com/user-attachments/assets/8ae2e869-f8e9-4044-a92f-56eeeabaa56c" />
 
 Once you see OpenWRT grub screen press e to edit the boot command line
