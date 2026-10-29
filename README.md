@@ -33,6 +33,8 @@ Connect LAN cable to the ethernet port on the Thin Client
 * set your lan ip address to 10.42.0.2/24 ( any ip except 10.42.0.1/24 )
 * point your web browser to 10.42.0.1
 * and run trrogh the morse micro web interface wizzard to setup halow - Selecting your Region would it be US, EU, AU etc (in my case in need EU)
+  Refer to the Morse Micro Officail PDF guide for more information - https://www.morsemicro.com/resources/user_guides/MM6108_MM8108-Eval-Kit-User-Guide-2.8.pdf
+  
 * enable ttyd - Services - Terminal
 * and go through the setps to install meshtasticd on openwrt - https://github.com/meshtastic/openwrt-repo
 * install meshtasticd
