@@ -10,11 +10,21 @@ Press F12 to select the USB sroage device OpenWRT image was flash onto - or inte
 <img width="1534" height="873" alt="image" src="https://github.com/user-attachments/assets/8ae2e869-f8e9-4044-a92f-56eeeabaa56c" />
 
 Once you see OpenWRT grub screen press e to edit the boot command line
- We need to remove the serial console re-direction
+ We need to remove the serial console re-direction, then press F10 to continue to boot with the modified command line
 
 ```
   menuentry "OpenWrt" {
           linux /boot/vmlinuz root=PARTUUID=ca165c20-f717-ec14-f184-b15f1bb0e102 rootwait console=tty1 noinitrd
+```
+
+<img width="1385" height="1044" alt="image" src="https://github.com/user-attachments/assets/0ccc0376-67e8-4765-bdf1-9a6b69153d06" />
+
+
+<img width="1385" height="1044" alt="image" src="https://github.com/user-attachments/assets/5f94e0f8-cd84-43e2-ad13-045281dac38b" />
+
+We also need to make the grub command line permanent once OpenWRT is up
+```
+nano /boot/grub/grub.cfg
 ```
 
 Connect LAN cable to the ethernet port on the Thin Client
