@@ -47,7 +47,7 @@ LINK
 
 https://www.elecrow.com/meshstick-usb-to-spi-sx1262-tcxo-lora-usb-stick-usb-plug-and-play-meshtastic-lora-mesh-node.html
 
-Halow USB Stick used WFD8108
+Halow USB Stick used WFD8108 but you could also use the official RD9 or a diy version
 LINK
 
 https://www.alibaba.com/product-detail/WFDG8108-WiFi-HaLow-Dongle-Plug-And_1601962754478.html
