@@ -43,6 +43,8 @@ Connect LAN cable to the ethernet port on the Thin Client
   as this firmware experience will have the same look and feel just be running on diffirent hardware
 
 * enable ttyd - Services - Terminal (Web based Terminal Access as Dropbear SSH is disabled by default )
+ OR
+perform the installation steps on the Dell Wyze 3040 itself 
   
 * and go through the setps to install meshtasticd on openwrt
 
