@@ -5,7 +5,7 @@ Coneect both your CH341 USB MESHSTICK and USB Halow adapter alongside a USB flas
 
 then
 
-Press F12 to select the USB sroage device OpenWRT image was flash onto - or internal storage if you have actually writen the image to it
+Press F12 to select the USB sroage device OpenWRT image was flash onto - or internal storage if you have actually written the image to it
 
 <img width="1534" height="873" alt="image" src="https://github.com/user-attachments/assets/8ae2e869-f8e9-4044-a92f-56eeeabaa56c" />
 
