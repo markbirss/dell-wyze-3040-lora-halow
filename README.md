@@ -1,4 +1,7 @@
 # dell-wyze-3040-lora-halow
+
+<img width="450" height="350" alt="image" src="https://github.com/user-attachments/assets/49f2cdd0-d936-4b8a-ad2d-0a8c9c643a75" />
+
 OpenWRT Dell Wyze 3040 Thin Client based Meshtastic and Halow using USB Meshstick and USB Halow Adapter
 
 Coneect both your CH341 USB MESHSTICK and USB Halow adapter alongside a USB flash drive ( if your openwrt image is on USB )
@@ -79,6 +82,10 @@ https://www.alibaba.com/product-detail/WFDG8108-WiFi-HaLow-Dongle-Plug-And_16019
 <img width="1716" height="1377" alt="image" src="https://github.com/user-attachments/assets/50275ed9-80d4-4da6-99a9-1d0ee9d2af17" />
 
 ---
+
+## Further Reading
+
+https://www.parkytowers.me.uk/thin/wyse/3040/
 
 ## ⚠️ Disclaimer
 
