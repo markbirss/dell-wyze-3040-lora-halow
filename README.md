@@ -12,6 +12,8 @@ Press F12 to select the USB sroage device OpenWRT image was flash onto - or inte
 Once you see OpenWRT grub screen press e to edit the boot command line
  We need to remove the serial console re-direction, then press F10 to continue to boot with the modified command line
 
+OpenWRT will not bootup with the serial console redirection on the Dell Wyze 3040
+
 ```
   menuentry "OpenWrt" {
           linux /boot/vmlinuz root=PARTUUID=ca165c20-f717-ec14-f184-b15f1bb0e102 rootwait console=tty1 noinitrd
