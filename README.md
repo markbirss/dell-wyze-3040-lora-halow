@@ -2,7 +2,7 @@
 
 <img width="450" height="350" alt="image" src="https://github.com/user-attachments/assets/49f2cdd0-d936-4b8a-ad2d-0a8c9c643a75" />
 
-OpenWRT Dell Wyze 3040 Thin Client based Meshtastic and Halow using USB Meshstick and USB Halow Adapter
+OpenWRT Dell Wyze 3040 Thin Client based Meshtastic and Halow using USB Meshstick and USB Halow Adapter firmware
 
 Coneect both your CH341 USB MESHSTICK and USB Halow adapter alongside a USB flash drive ( if your openwrt image is on USB )
 
