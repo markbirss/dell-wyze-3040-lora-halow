@@ -42,9 +42,25 @@ Connect LAN cable to the ethernet port on the Thin Client
   - https://www.morsemicro.com/resources/user_guides/MM6108_MM8108-Eval-Kit-User-Guide-2.8.pdf
   as this firmware experience will have the same look and feel just be running on diffirent hardware
 
-* enable ttyd - Services - Terminal
-* and go through the setps to install meshtasticd on openwrt - https://github.com/meshtastic/openwrt-repo
-* install meshtasticd
+* enable ttyd - Services - Terminal (Web based Terminal Access as Dropbear SSH is disabled by default )
+  
+* and go through the setps to install meshtasticd on openwrt
+
+Notes from 
+https://github.com/meshtastic/openwrt-repo
+
+```
+opkg update
+opkg install wget-ssl
+wget -O /tmp/meshtastic-ipk.pub https://openwrt.meshtastic.org/meshtastic-ipk.pub
+opkg-key add /tmp/meshtastic-ipk.pub && rm /tmp/meshtastic-ipk.pub
+sed -i '/meshtastic/d' /etc/opkg/customfeeds.conf
+ARCH=$( . /etc/openwrt_release; echo "$DISTRIB_ARCH" )
+WRT_VER=$( . /etc/openwrt_release; echo "${DISTRIB_RELEASE%%-*}" | cut -d. -f1-2 )
+echo "src/gz meshtastic https://openwrt.meshtastic.org/openwrt-${WRT_VER}/${ARCH}" >> /etc/opkg/customfeeds.conf
+opkg update
+opkg install meshtasticd
+```
 
 Confirm meshtasticd is running
 ```
