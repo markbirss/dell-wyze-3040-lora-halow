@@ -52,8 +52,9 @@ LINK
 
 https://www.alibaba.com/product-detail/WFDG8108-WiFi-HaLow-Dongle-Plug-And_1601962754478.html
 
-
 <img width="1182" height="1071" alt="image" src="https://github.com/user-attachments/assets/7cd1a63f-20d0-4c25-9cee-e2cf7ba3490d" />
+
+<img width="1716" height="1377" alt="image" src="https://github.com/user-attachments/assets/35fa6cdd-3d16-41cd-839e-18cece18d2a1" />
 
 <img width="1716" height="1377" alt="image" src="https://github.com/user-attachments/assets/50275ed9-80d4-4da6-99a9-1d0ee9d2af17" />
 
