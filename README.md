@@ -1,5 +1,5 @@
 # dell-wyze-3040-lora-halow
-OpenWRT Dell Wyze 3040 Thin Client based Meshtatic and Halow using USB Meshstick and USB Halow Adapter
+OpenWRT Dell Wyze 3040 Thin Client based Meshtastic and Halow using USB Meshstick and USB Halow Adapter
 
 Coneect both your CH341 USB MESHSTICK and USB Halow adapter alongside a USB flash drive ( if your openwrt image is on USB )
 
