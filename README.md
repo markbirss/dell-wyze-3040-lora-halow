@@ -73,7 +73,7 @@ Confirm meshtasticd is running
 logread | grep meshtasticd
 ```
 
-* point your phone or meshtastic desktop application to connect to 10.42.0.1 and set a LoRa Region
+* point your android phone or meshtastic desktop application to connect to 10.42.0.1 and set a LoRa Region
 * use whichever client anadoid or desktop
 
   <img width="1010" height="1166" alt="image" src="https://github.com/user-attachments/assets/e8a5324c-a164-4049-ac34-f09fbd8339c7" />
