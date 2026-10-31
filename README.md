@@ -82,7 +82,7 @@ logread | grep meshtasticd
 OpenWRT based on Morse Micro SDK Morse-3.1-dev - https://github.com/MorseMicro/openwrt
 
 
-Lora USB Stick used MESHSTICK
+Lora USB Stick used my MESHSTICK
 
 LINK
 
