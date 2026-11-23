@@ -1,4 +1,5 @@
-git clone -b 3.1-dev https://github.com/MorseMicro/openwrt.git
+#git clone -b 3.1-dev https://github.com/MorseMicro/openwrt.git
+git clone -b 3.3-dev https://github.com/MorseMicro/openwrt.git
 cd openwrt
 
 cp -r boards/ekh-x86_64 boards/wyze-3040
